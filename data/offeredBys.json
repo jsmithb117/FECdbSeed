@@ -1,0 +1,402 @@
+[
+	{
+		"id": 1,
+		"offeredByName": "Jewish Theological Seminary of America"
+	},
+	{
+		"id": 2,
+		"offeredByName": "Jewish Theological Seminary of America"
+	},
+	{
+		"id": 3,
+		"offeredByName": "Saint Mary's College of California"
+	},
+	{
+		"id": 4,
+		"offeredByName": "Baylor University"
+	},
+	{
+		"id": 5,
+		"offeredByName": "Dallas Christian College"
+	},
+	{
+		"id": 6,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 7,
+		"offeredByName": "Farmingdale State College"
+	},
+	{
+		"id": 8,
+		"offeredByName": "Lewis University"
+	},
+	{
+		"id": 9,
+		"offeredByName": "Alfred University"
+	},
+	{
+		"id": 10,
+		"offeredByName": "Xavier University"
+	},
+	{
+		"id": 11,
+		"offeredByName": "Farmingdale State College"
+	},
+	{
+		"id": 12,
+		"offeredByName": "Marian University"
+	},
+	{
+		"id": 13,
+		"offeredByName": "Vincennes University"
+	},
+	{
+		"id": 14,
+		"offeredByName": "Ohio State University"
+	},
+	{
+		"id": 15,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 16,
+		"offeredByName": "Baylor University"
+	},
+	{
+		"id": 17,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 18,
+		"offeredByName": "Marian University"
+	},
+	{
+		"id": 19,
+		"offeredByName": "Dallas Christian College"
+	},
+	{
+		"id": 20,
+		"offeredByName": "Zaytuna College"
+	},
+	{
+		"id": 21,
+		"offeredByName": "Zaytuna College"
+	},
+	{
+		"id": 22,
+		"offeredByName": "Farmingdale State College"
+	},
+	{
+		"id": 23,
+		"offeredByName": "Lewis University"
+	},
+	{
+		"id": 24,
+		"offeredByName": "Pacific Islands University"
+	},
+	{
+		"id": 25,
+		"offeredByName": "Wright State University"
+	},
+	{
+		"id": 26,
+		"offeredByName": "Alfred University"
+	},
+	{
+		"id": 27,
+		"offeredByName": "Saint Mary's College of California"
+	},
+	{
+		"id": 28,
+		"offeredByName": "Pacific Islands University"
+	},
+	{
+		"id": 29,
+		"offeredByName": "Vincennes University"
+	},
+	{
+		"id": 30,
+		"offeredByName": "Centenary University"
+	},
+	{
+		"id": 31,
+		"offeredByName": "Jewish Theological Seminary of America"
+	},
+	{
+		"id": 32,
+		"offeredByName": "Georgia Institute of Technology-Main Campus"
+	},
+	{
+		"id": 33,
+		"offeredByName": "Marian University"
+	},
+	{
+		"id": 34,
+		"offeredByName": "Pacific Islands University"
+	},
+	{
+		"id": 35,
+		"offeredByName": "Centenary University"
+	},
+	{
+		"id": 36,
+		"offeredByName": "Jewish Theological Seminary of America"
+	},
+	{
+		"id": 37,
+		"offeredByName": "Baylor University"
+	},
+	{
+		"id": 38,
+		"offeredByName": "Marian University"
+	},
+	{
+		"id": 39,
+		"offeredByName": "Alfred University"
+	},
+	{
+		"id": 40,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 41,
+		"offeredByName": "Hofstra University"
+	},
+	{
+		"id": 42,
+		"offeredByName": "Saint Mary's College of California"
+	},
+	{
+		"id": 43,
+		"offeredByName": "Zaytuna College"
+	},
+	{
+		"id": 44,
+		"offeredByName": "Baylor University"
+	},
+	{
+		"id": 45,
+		"offeredByName": "Youngstown State University"
+	},
+	{
+		"id": 46,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 47,
+		"offeredByName": "Alfred University"
+	},
+	{
+		"id": 48,
+		"offeredByName": "Indiana Institute of Technology"
+	},
+	{
+		"id": 49,
+		"offeredByName": "Ohio State University"
+	},
+	{
+		"id": 50,
+		"offeredByName": "Youngstown State University"
+	},
+	{
+		"id": 51,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 52,
+		"offeredByName": "Ohio State University"
+	},
+	{
+		"id": 53,
+		"offeredByName": "Pacific Islands University"
+	},
+	{
+		"id": 54,
+		"offeredByName": "Pacific Islands University"
+	},
+	{
+		"id": 55,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 56,
+		"offeredByName": "Baylor University"
+	},
+	{
+		"id": 57,
+		"offeredByName": "Wright State University"
+	},
+	{
+		"id": 58,
+		"offeredByName": "Queens University of Charlotte"
+	},
+	{
+		"id": 59,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 60,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 61,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 62,
+		"offeredByName": "Queens University of Charlotte"
+	},
+	{
+		"id": 63,
+		"offeredByName": "Georgia Institute of Technology-Main Campus"
+	},
+	{
+		"id": 64,
+		"offeredByName": "Baylor University"
+	},
+	{
+		"id": 65,
+		"offeredByName": "East Carolina University"
+	},
+	{
+		"id": 66,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 67,
+		"offeredByName": "Georgia Institute of Technology-Main Campus"
+	},
+	{
+		"id": 68,
+		"offeredByName": "Youngstown State University"
+	},
+	{
+		"id": 69,
+		"offeredByName": "Queens University of Charlotte"
+	},
+	{
+		"id": 70,
+		"offeredByName": "Zaytuna College"
+	},
+	{
+		"id": 71,
+		"offeredByName": "Indiana Institute of Technology"
+	},
+	{
+		"id": 72,
+		"offeredByName": "Jewish Theological Seminary of America"
+	},
+	{
+		"id": 73,
+		"offeredByName": "University of Central Arkansas"
+	},
+	{
+		"id": 74,
+		"offeredByName": "Pacific Islands University"
+	},
+	{
+		"id": 75,
+		"offeredByName": "Xavier University"
+	},
+	{
+		"id": 76,
+		"offeredByName": "Youngstown State University"
+	},
+	{
+		"id": 77,
+		"offeredByName": "Keiser University-Ft Lauderdale"
+	},
+	{
+		"id": 78,
+		"offeredByName": "Xavier University"
+	},
+	{
+		"id": 79,
+		"offeredByName": "Northwestern State University of Louisiana"
+	},
+	{
+		"id": 80,
+		"offeredByName": "Vincennes University"
+	},
+	{
+		"id": 81,
+		"offeredByName": "Centenary University"
+	},
+	{
+		"id": 82,
+		"offeredByName": "Alfred University"
+	},
+	{
+		"id": 83,
+		"offeredByName": "Toccoa Falls College"
+	},
+	{
+		"id": 84,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 85,
+		"offeredByName": "Indiana Institute of Technology"
+	},
+	{
+		"id": 86,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 87,
+		"offeredByName": "Youngstown State University"
+	},
+	{
+		"id": 88,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 89,
+		"offeredByName": "Wright State University"
+	},
+	{
+		"id": 90,
+		"offeredByName": "Radford University"
+	},
+	{
+		"id": 91,
+		"offeredByName": "Alfred University"
+	},
+	{
+		"id": 92,
+		"offeredByName": "East Carolina University"
+	},
+	{
+		"id": 93,
+		"offeredByName": "Xavier University"
+	},
+	{
+		"id": 94,
+		"offeredByName": "Jewish Theological Seminary of America"
+	},
+	{
+		"id": 95,
+		"offeredByName": "Marian University"
+	},
+	{
+		"id": 96,
+		"offeredByName": "Northwestern State University of Louisiana"
+	},
+	{
+		"id": 97,
+		"offeredByName": "Baylor University"
+	},
+	{
+		"id": 98,
+		"offeredByName": "Centenary University"
+	},
+	{
+		"id": 99,
+		"offeredByName": "Indiana Institute of Technology"
+	},
+	{
+		"id": 100,
+		"offeredByName": "Toccoa Falls College"
+	}
+]

@@ -1,8 +1,8 @@
 const faker = require('faker');
 const fs = require('fs')
 
-function generateUsers() {
-  let users = [];
+function generateOfferedBys() {
+  let offeredBys = [];
 
   let schools = [
     "Alfred University",
@@ -28,43 +28,25 @@ function generateUsers() {
     "University of Central Arkansas",
     "Vincennes University",
     "Wright State University",
-    "	Xavier University",
+    "Xavier University",
     "Youngstown State University",
     "Zaytuna College"
   ] //From https://nces.ed.gov/collegenavigator
 
   for (let id=1; id <= 100; id++) {
-    let bool;
     let random = Math.random();
-    let rating = random;
-    while (!bool) {
-      if (rating < 3.9) {
-        rating++;
-      } else {
-        bool = true;
-      }
-    }
 
-    let user = {
-      firstName: faker.name.firstName(),
-      middleInitial: faker.name.middleName().slice(0,1).toUpperCase(),
-      lastName: faker.name.lastName(),
-      academicTitle: random < .4 ? 'Associate Professor'
-        : random < .85 ? 'Professor'
-        : 'PhD',
-      title: faker.name.title(),
-      organization: schools[Math.floor(random * schools.length)],
-      learners: Math.floor(random * 5000),
-      //courseNumbers needs to be completed later
-      instructorAverageRating: Number.parseFloat(rating).toPrecision(2),
-      numberOfRatings: Math.floor(rating * random * 2345)
+    let offeredBy = {
+      id,
+      offeredByName: schools[Math.floor(random * schools.length)]
+      //offeredByCourses needs to be completed later
     }
-    users.push(user);
+    offeredBys.push(offeredBy);
   }
 
-  return users;
+  return offeredBys;
 }
 
-let dataObj = generateUsers();
+let dataObj = generateOfferedBys();
 
-fs.writeFileSync('instructors.json', JSON.stringify(dataObj, null, '\t'));
+fs.writeFileSync('../data/offeredBys.json', JSON.stringify(dataObj, null, '\t'));
