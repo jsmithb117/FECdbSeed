@@ -40,9 +40,7 @@ const offeredBysData = require('../data/offeredBys.json');
         additionalInstructors.push(URL);
       }
 
-
-      //testimonials, choose 3 images from:
-      //1-9
+      //testimonials, choose 3 from 1-9
       let testimonialsArray = [];
       while (testimonialsArray.length < 3) {
         let random = Math.ceil(Math.random() * 9);
@@ -50,10 +48,13 @@ const offeredBysData = require('../data/offeredBys.json');
           testimonialsArray.push(random);
         }
       }
-      let testimonial1 = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[0]}.jpg`;
-      let testimonial2 = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[1]}.jpg`;
-      let testimonial3 = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[2]}.jpg`;
+      let testimonial1Id = testimonialsArray[0];
+      let testimonial2Id = testimonialsArray[1];
+      let testimonial3Id = testimonialsArray[2];
 
+      let testimonial1Image = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[0]}.jpg`;
+      let testimonial2Image = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[1]}.jpg`;
+      let testimonial3Image = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[2]}.jpg`;
 
       let image = {
         id,
@@ -62,9 +63,12 @@ const offeredBysData = require('../data/offeredBys.json');
         offeredByMain: `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/offeredByAbouts/${offeredBys[offeredBy]}Main.png`,
         primaryInstructor: `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/instructors/${primaryInstructorsObj[id]}.jpg`,
         additionalInstructors,
-        testimonial1,
-        testimonial2,
-        testimonial3,
+        testimonial1Image,
+        testimonial1Id,
+        testimonial2Image,
+        testimonial2Id,
+        testimonial3Image,
+        testimonial3Id,
         courseIcon: `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/courseIcons/${id}.png`
       };
       images.push(image);
@@ -75,52 +79,3 @@ const offeredBysData = require('../data/offeredBys.json');
   let data = generateImages();
 
   fs.writeFileSync('../data/images.json', JSON.stringify(data, null, '\t'));
-
-
-
-  //   return
-  // }
-
-  // let dataObj = generateImages();
-
-
-
-// {
-//   id: Number,
-// courseNumber: Number,
-//   offeredByAbout: String,
-// offeredByMain: String,
-// primaryInstructor: String,
-//   additionalnstructors: [{
-//   instructorIndex: Number,
-//   instructorImage: String
-// }],
-//   testimonial1: String,
-//   testimonial2 : String,
-//   testimonial3: String,
-//   courseIcon: String,
-//
-// }
-
-
-
-// {
-//   careerBenefitSVG: String,
-//   careerDirectionSVG: String,
-//   careerPromotionSVG: String,
-//   courseMaterialsSVG: String,
-//   deadlinesSVG: String,
-//   exerciseSVG: String,
-//   flexibleSVG: String,
-//   hoursSVG: String,
-//   languagesSVG: String,
-//   levelSVG: String,
-//   onlineSVG: String,
-//   outcomesHoursSVG: String,
-//   readingsSVG: String,
-//   scheduleSVG: String
-//   sharableCertificateSVG: String,
-//   starSVG: String
-//   userSVG: String,
-//   videosSVG: String
-//   }
