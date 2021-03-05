@@ -4,7 +4,7 @@ const fs = require('fs')
 function generateTestimonials() {
   let testimonials = [];
 
-  for (let id=1; id <= 100; id++) {
+  for (let id=1; id <= 9; id++) {
     let testimonial = {
       id,
       name: faker.name.firstName().concat(' ', faker.name.lastName().slice(0,1), '.'),

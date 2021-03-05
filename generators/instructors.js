@@ -51,9 +51,10 @@ function generateInstructors() {
         firstName: faker.name.firstName(),
         middleInitial: faker.name.middleName().slice(0, 1).toUpperCase(),
         lastName: faker.name.lastName(),
-        academicTitle: random < .4 ? 'Associate Professor'
+        academicTitle: random < .2 ? 'Instructor'
+          : random < .4 ? 'Associate Professor'
           : random < .85 ? 'Professor'
-            : 'PhD',
+          : 'PhD',
         title: faker.name.title(),
         organization: schools[Math.floor(random * schools.length)],
         learners: Math.floor(random * 5000),
