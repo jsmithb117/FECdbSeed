@@ -1,6 +1,7 @@
 const faker = require('faker');
 const fs = require('fs')
 
+//creates 9 testimonials
 function generateTestimonials() {
   let testimonials = [];
 

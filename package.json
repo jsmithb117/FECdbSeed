@@ -19,5 +19,8 @@
   "homepage": "https://github.com/jsmithb117/FECdbSeed#readme",
   "dependencies": {
     "faker": "^5.4.0"
+  },
+  "devDependencies": {
+    "mongoose": "^5.11.19"
   }
 }

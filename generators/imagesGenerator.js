@@ -10,7 +10,7 @@ const offeredBysData = require('../data/offeredBys.json');
 
     //creates instructors data from instructors.json for image documents
     let primaryInstructorsObj = {}; //{courseNumber: primaryInstructor.id}
-    let additionalInstructorsObj = {};//{courseNumber: [additionalInstructor.id, ...]}
+    let additionalInstructorsObj = {};//{courseNumber: [additionalInstructor1.id, additionalInstructor2.id...]}
     for (let i = 1; i <= 100; i++) {
       additionalInstructorsObj[i] = [];
     }
@@ -29,18 +29,19 @@ const offeredBysData = require('../data/offeredBys.json');
 
       //create offeredBys index
       let offeredBy = Math.floor(Math.random() * offeredBys.length);
-      offeredBysData[id - 1] = offeredBys[offeredBy];
+      offeredBysData[id - 1] = offeredBys[offeredBy]; //changes 'offeredBysData', I should have generated this data in offeredBys.js and imported it here.  It'll do the job.
 
-      //build additionalInstructors array
+      //builds additionalInstructors array for each course
       let additionalInstructors = [];
       for (let i = 0; i < additionalInstructorsObj[id].length; i++) {
         let URL = {
+          instructorId: additionalInstructorsObj[id][i],
           instructorImage: `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/instructors/${additionalInstructorsObj[id][i]}.jpg`
         }
         additionalInstructors.push(URL);
       }
 
-      //testimonials, choose 3 from 1-9
+      //assigns 3 of 9 testimonials to each course
       let testimonialsArray = [];
       while (testimonialsArray.length < 3) {
         let random = Math.ceil(Math.random() * 9);
@@ -56,6 +57,7 @@ const offeredBysData = require('../data/offeredBys.json');
       let testimonial2Image = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[1]}.jpg`;
       let testimonial3Image = `https://rpt26-ingenuity.s3-us-west-1.amazonaws.com/testimonials/${testimonialsArray[2]}.jpg`;
 
+      //brings together each 'image' then pushes to images
       let image = {
         id,
         offeredBy,

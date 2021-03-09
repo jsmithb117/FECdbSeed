@@ -31,10 +31,11 @@ function generateInstructors() {
     "Xavier University",
     "Youngstown State University",
     "Zaytuna College"
-  ] //From https://nces.ed.gov/collegenavigator
+  ] //Pulled manually from https://nces.ed.gov/collegenavigator
 
+  //creates 100 instructors
   const createInstructors = () => {
-    for (let id = 1; id <= 100; id++) { //creates 100 instructors
+    for (let id = 1; id <= 100; id++) {
       let bool;
       let random = Math.random();
       let rating = random;
@@ -66,8 +67,9 @@ function generateInstructors() {
     }
   }
 
+  //adds one primary instructor per course
   const addPrimaryInstructors = () => {
-    for (let i = 1; i <= 100; i++) { //adds 100 primary instructors
+    for (let i = 1; i <= 100; i++) {
       let index = Math.floor(Math.random() * 40) + 1; //uses only first 40 instructors as primaryInstructor
       let courseObj = {
         courseNumber: i,
@@ -83,8 +85,9 @@ function generateInstructors() {
     }
   }
 
+  //assigns 0 to 3 assistant instructors per course, no min or max courses per assistant
   const addAssistantInstructors = () => {
-    for (let courseNumber = 1; courseNumber <= 100; courseNumber++) { //assigns 0 to 3 assistant instructors per course, no min or max courses per assistant
+    for (let courseNumber = 1; courseNumber <= 100; courseNumber++) {
       let numberOfAssistants = Math.floor(Math.random() * 4);
       let assistants = [];
 
